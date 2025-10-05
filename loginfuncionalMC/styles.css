@@ -1,0 +1,133 @@
+
+
+/* reseteo */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* body Centrado total de la página */
+body {
+    background-color: #f8f8f8; 
+    /*  Flexbox para centrar horizontal y verticalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+/* contenedor prin*/
+
+.login-container {
+    width: 380px; 
+    padding: 30px; 
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+/* Estilos logo             */
+
+
+.logo-area {
+    /* Margen inferior para separar la cabecera del primer campo de entrada */
+    margin-bottom: 30px; 
+}
+
+/* Estilos para la imagen real del logo */
+.logo-img {
+    /* ancho logo */
+    max-width: 180px; 
+    /* coloca la imagen como bloque para asi centrarla */
+    display: block; 
+    /* Centrar la imagen horizontalmente */
+    margin: 0 auto 5px auto; 
+}
+
+/* eslogan */
+.slogan {
+    color: #777;
+    font-size: 14px;
+    margin-top: 5px; 
+
+}
+
+
+
+
+/* formularios y  los campos           */
+
+
+.login-form {
+    text-align: left; 
+}
+
+/* labels usuario y contraseña */
+label {
+    display: block; 
+    font-weight: 600;
+    color: #333;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+/* Campos de entrada input */
+input {
+    width: 100%; 
+    padding: 12px 15px; 
+    height: 45px;
+    /*diseño para el borde del input */
+    border: 1px solid #f2fff2; 
+    border-radius: 8px; 
+    /* Color de fondo del input */
+    background-color: #f2fff2; 
+    color: #555;
+    font-size: 14px;
+    outline: none; 
+}
+
+/* Boton y enlace*/
+
+/*iniciar secion*/
+.btn-login {
+    width: 100%;
+    background-color: #ff8c37; 
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px; 
+    border-radius: 8px;
+    border: none; 
+    cursor: pointer; 
+    margin-top: 30px;
+    margin-bottom: 20px;
+    transition: background-color 0.2s;
+}
+
+/* Efecto al pasar el ratón por el botón */
+.btn-login:hover {
+    background-color: #e67d2e; 
+}
+
+/* enlace de registro */
+.register-link {
+    text-align: center; 
+    color: #555;
+    font-size: 14px;
+}
+
+/* Solo el texto "Regístrate aquí" */
+.link-text {
+    text-decoration: none; 
+    color: #ff8c37; 
+    font-weight: 600;
+}
+
+.link-text:hover {
+    text-decoration: underline; 
+}

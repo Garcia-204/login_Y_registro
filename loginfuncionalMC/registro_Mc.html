@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesa Compartida - Iniciar Registro</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="login-container">
+        
+        <header class="logo-area">
+            <img src="oli.jpeg" alt="Logo de Mesa Compartida" class="logo-img">
+            
+ 
+        </header>
+
+       <form action="registro.php" method="post" class="login-form">
+
+    <label for="usuario">Usuario</label>
+    <input type="text" id="usuario" name="name_user" placeholder="Ingresa tu usuario" required>
+
+    <label for="contrasena">Contraseña</label>
+    <input type="password" id="contrasena" name="password_user" placeholder="Ingresa tu contraseña" required>
+
+    <label for="correo">Correo Electrónico</label>
+    <input type="email" id="correo" name="email_user" placeholder="Ingresa tu correo" required>
+
+    <button type="submit" name="registro" class="btn-login">Registrarse</button>
+</form>
+
+
+    </div>
+    <script src="registroMc.js"></script>
+</body>
+</html>
